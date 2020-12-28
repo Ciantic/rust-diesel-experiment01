@@ -39,4 +39,9 @@ table! {
     }
 }
 
-allow_tables_to_appear_in_same_query!(articles, images, resources, urls,);
+allow_tables_to_appear_in_same_query!(
+    articles,
+    images,
+    resources,
+    urls,
+);
